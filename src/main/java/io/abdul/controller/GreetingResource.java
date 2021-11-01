@@ -15,7 +15,7 @@ import java.util.List;
 public class GreetingResource {
 
     @Inject
-    private PersonRepository personRepository;
+    public PersonRepository personRepository;
 
     @GET
     @Produces(MediaType.TEXT_PLAIN)

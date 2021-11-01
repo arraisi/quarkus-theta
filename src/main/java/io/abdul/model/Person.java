@@ -8,7 +8,8 @@ import java.time.LocalDate;
 @Entity
 public class Person extends PanacheEntity {
 
-    private String name;
-    private LocalDate birth;
-    private Status status;
+    public String name;
+    public LocalDate birth;
+    public Status status;
+
 }
